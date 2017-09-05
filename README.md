@@ -1,3 +1,3 @@
-#npm_publish  
+##npm_publish
 
-a npm lib demo for test npm pulish
+a npm lib demo for test npm publish

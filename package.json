@@ -1,6 +1,6 @@
 {
   "name": "npm_publish_demo_by_xt",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "XuTian",
   "description": "a demo",
   "main": "./lib",
