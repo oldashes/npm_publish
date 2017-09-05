@@ -4,9 +4,7 @@
   "author": "XuTian",
   "description": "a demo",
   "main": "./lib",
-  "publishConfig": {
-    "registry": "https://repo.ekuaibao.com/repository/ekuaibao-npm/"
-  },
+
   "scripts": {
     "build": "mkdir -p lib && babel ./src -d ./lib",
     "publish2npm": "mkdir -p build && cp -R package.json README.md src lib build && npm publish ./build",
@@ -15,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@git.ekuaibao.com:mistery/ekb-creator.git"
+    "url": "git+https://github.com/oldashes/npm_publish.git"
   },
   "license": "NO LICENSE",
   "devDependencies": {
